@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HMC_DTV</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_remote">Remote</string>
+    <string name="title_activity_recordings">Recordings</string>
+    <string name="title_activity_additional_features">AdditionalFeatures</string>
+    <string name="title_activity_voice_control">VoiceControl</string>
+    <string name="title_activity_gesture_control">GestureControl</string>
+    <string name="title_activity_audio_streaming">AudioStreaming</string>
+    
+    <string name="voice_control_intro"> 
+        We are demostrating that our application gives the user the
+        ability to control the set-top box with verbal commands.
+    </string>
+    
+    <string name="voice_control_simple"> Try using simple commands such as: </string>
+    <string name="voice_control_complicated"> Or more complicated commands such as: </string>
+    
+    <string name="audio_streaming_intro"> 
+        We are demostrating that our application has the ability to wirelessly stream
+        audio from the television to the smart remote.
+    </string>
+    
+    <string name="audio_streaming_explain"> 
+        When headphones are inserted in the audio jack on the smart remote, the television
+        will be muted and the audio will be streamed through the headphones.
+    </string>
+    
+    <string name="settings_intro"> 
+		The user will be able to change the settings of their smart remote on this page!
+    </string>
+	
+    <string name="settings_gesture"> 
+		You will be able to decide what remote commands you want to correspond to what gesture.
+		For example, you can access the menu with a swipe to the right or bring up recordings with
+		a flick of your wrist.
+    </string>
+    
+    <string name="settings_favorites"> 
+		You will also be able to edit you favorites page and set alarms to remind you when
+		your favorite shows are playing.
+    </string>
+    
+    <string name="recordings_info"> 
+		You will be able to access all of your recordings from this page!
+    </string>
+    
+    <string name="recordings_extra"> 
+		You have the power to navigate through your shows and select new series
+		that you want to record in a clean interface (below)
+    </string>
+    
+    <string name="gesture_intro"> 
+        Gesture control gives you the ability to control your television from the palm of your hand!
+    </string>
+    
+    <string name="gesture_flick"> 
+        Try flicking your remote to the left to replay that awesome play that you just saw.
+    </string>
+    
+    <string name="gesture_power"> 
+        Or try pointing the remote to the floor to turn off your set-top box. 
+    </string>
+    
+    
+    <string name="btSpeak">Speak</string>
+    <string name="tvTextMatches">Please press the Voice Control button to begin</string>
+    <string name="sNoOfMatches">No of Matches</string>
+    <string name="etSearchHint">Speech hint here</string>
+    <string-array name="saNoOfMatches">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="status"><u>Status</u></string>
+    
+    
+    
+    
+</resources>

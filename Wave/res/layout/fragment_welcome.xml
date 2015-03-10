@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6182A3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ride_the"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Welcome to"
+        android:textColor="#F0F0F0"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/wave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ride_the"
+        android:layout_centerHorizontal="true"
+        android:text="Wave"
+        android:textColor="#F0F0F0"
+        android:textSize="64sp" />
+
+    <TextView
+        android:id="@+id/for_swimming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="specifically designed for swimming"
+        android:textColor="#F0F0F0"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/first_wearable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/for_swimming"
+        android:layout_centerHorizontal="true"
+        android:text="The world&apos;s first wearable"
+        android:textColor="#F0F0F0"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/wave_logo" />
+    </LinearLayout>
+
+</RelativeLayout>

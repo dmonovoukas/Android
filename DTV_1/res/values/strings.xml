@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DTV_1</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_favorites_page">FavoritesPage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_remote_page">RemotePage</string>
+    <string name="title_activity_add_features">AddFeatures</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+</resources>

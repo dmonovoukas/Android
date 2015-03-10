@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/launch_soundwire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LAUNCH SOUNDWIRE" />
+
+    <Button
+        android:id="@+id/upvolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vol Up" />
+
+    <Button
+        android:id="@+id/downvolume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vol Down" />
+
+    <Button
+        android:id="@+id/mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mute" />
+
+    <Button
+        android:id="@+id/onoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On/Off" />
+
+</LinearLayout>
